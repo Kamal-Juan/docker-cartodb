@@ -180,7 +180,7 @@ RUN git clone git://github.com/CartoDB/Windshaft-cartodb.git && \
     mkdir logs
 
 # Install CartoDB
-RUN git clone --recursive git://github.com/CartoDB/cartodb.git && \
+RUN git clone --recursive git://github.com/entel-garage/cartodb.git && \
     cd cartodb && \
     git checkout master && \
     # Install cartodb extension
