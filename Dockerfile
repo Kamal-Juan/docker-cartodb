@@ -95,8 +95,8 @@ RUN useradd -m -d /home/cartodb -s /bin/bash cartodb && \
   --no-install-recommends && \
   rm -rf /var/lib/apt/lists/*
 
-RUN git config --global user.email you@example.com
-RUN git config --global user.name "Your Name"
+RUN git config --global user.email gtognrelli@entel.cl
+RUN git config --global user.name "Giuliano docker-cartodb bot"
 
 # Varnish 3, Ubuntu:16.04 comes with Varnish 4.1 which can't be run with anonymous admin telnet
 RUN cd /opt && \
